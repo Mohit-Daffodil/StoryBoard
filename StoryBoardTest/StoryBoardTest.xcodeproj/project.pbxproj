@@ -20,6 +20,7 @@
 		1B9962371994D7DE00ADBBEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9962191994D7DE00ADBBEE /* UIKit.framework */; };
 		1B99623F1994D7DE00ADBBEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B99623D1994D7DE00ADBBEE /* InfoPlist.strings */; };
 		1B9962411994D7DE00ADBBEE /* StoryBoardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9962401994D7DE00ADBBEE /* StoryBoardTestTests.m */; };
+		1B99624B1994DB9600ADBBEE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B99624A1994DB9600ADBBEE /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1B99623C1994D7DE00ADBBEE /* StoryBoardTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardTestTests-Info.plist"; sourceTree = "<group>"; };
 		1B99623E1994D7DE00ADBBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B9962401994D7DE00ADBBEE /* StoryBoardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardTestTests.m; sourceTree = "<group>"; };
+		1B99624A1994DB9600ADBBEE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				1B99622B1994D7DE00ADBBEE /* MCViewController.m */,
 				1B99622D1994D7DE00ADBBEE /* Images.xcassets */,
 				1B99621C1994D7DE00ADBBEE /* Supporting Files */,
+				1B99624A1994DB9600ADBBEE /* Storyboard.storyboard */,
 			);
 			path = StoryBoardTest;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				1B99622E1994D7DE00ADBBEE /* Images.xcassets in Resources */,
 				1B9962201994D7DE00ADBBEE /* InfoPlist.strings in Resources */,
+				1B99624B1994DB9600ADBBEE /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +449,6 @@
 				1B9962461994D7DE00ADBBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		1B9962471994D7DE00ADBBEE /* Build configuration list for PBXNativeTarget "StoryBoardTestTests" */ = {
 			isa = XCConfigurationList;
@@ -454,7 +457,6 @@
 				1B9962491994D7DE00ADBBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
