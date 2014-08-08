@@ -13,7 +13,6 @@
 		1B9962201994D7DE00ADBBEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B99621E1994D7DE00ADBBEE /* InfoPlist.strings */; };
 		1B9962221994D7DE00ADBBEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9962211994D7DE00ADBBEE /* main.m */; };
 		1B9962261994D7DE00ADBBEE /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9962251994D7DE00ADBBEE /* MCAppDelegate.m */; };
-		1B9962291994D7DE00ADBBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9962271994D7DE00ADBBEE /* Main.storyboard */; };
 		1B99622C1994D7DE00ADBBEE /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99622B1994D7DE00ADBBEE /* MCViewController.m */; };
 		1B99622E1994D7DE00ADBBEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B99622D1994D7DE00ADBBEE /* Images.xcassets */; };
 		1B9962351994D7DE00ADBBEE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9962341994D7DE00ADBBEE /* XCTest.framework */; };
@@ -21,6 +20,7 @@
 		1B9962371994D7DE00ADBBEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9962191994D7DE00ADBBEE /* UIKit.framework */; };
 		1B99623F1994D7DE00ADBBEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B99623D1994D7DE00ADBBEE /* InfoPlist.strings */; };
 		1B9962411994D7DE00ADBBEE /* StoryBoardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9962401994D7DE00ADBBEE /* StoryBoardTestTests.m */; };
+		1B99624B1994DB9600ADBBEE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B99624A1994DB9600ADBBEE /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		1B9962231994D7DE00ADBBEE /* StoryBoardTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryBoardTest-Prefix.pch"; sourceTree = "<group>"; };
 		1B9962241994D7DE00ADBBEE /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
 		1B9962251994D7DE00ADBBEE /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
-		1B9962281994D7DE00ADBBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B99622A1994D7DE00ADBBEE /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
 		1B99622B1994D7DE00ADBBEE /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
 		1B99622D1994D7DE00ADBBEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		1B99623C1994D7DE00ADBBEE /* StoryBoardTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardTestTests-Info.plist"; sourceTree = "<group>"; };
 		1B99623E1994D7DE00ADBBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B9962401994D7DE00ADBBEE /* StoryBoardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardTestTests.m; sourceTree = "<group>"; };
+		1B99624A1994DB9600ADBBEE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +114,11 @@
 			children = (
 				1B9962241994D7DE00ADBBEE /* MCAppDelegate.h */,
 				1B9962251994D7DE00ADBBEE /* MCAppDelegate.m */,
-				1B9962271994D7DE00ADBBEE /* Main.storyboard */,
 				1B99622A1994D7DE00ADBBEE /* MCViewController.h */,
 				1B99622B1994D7DE00ADBBEE /* MCViewController.m */,
 				1B99622D1994D7DE00ADBBEE /* Images.xcassets */,
 				1B99621C1994D7DE00ADBBEE /* Supporting Files */,
+				1B99624A1994DB9600ADBBEE /* Storyboard.storyboard */,
 			);
 			path = StoryBoardTest;
 			sourceTree = "<group>";
@@ -231,7 +231,7 @@
 			files = (
 				1B99622E1994D7DE00ADBBEE /* Images.xcassets in Resources */,
 				1B9962201994D7DE00ADBBEE /* InfoPlist.strings in Resources */,
-				1B9962291994D7DE00ADBBEE /* Main.storyboard in Resources */,
+				1B99624B1994DB9600ADBBEE /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +281,6 @@
 				1B99621F1994D7DE00ADBBEE /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1B9962271994D7DE00ADBBEE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B9962281994D7DE00ADBBEE /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		1B99623D1994D7DE00ADBBEE /* InfoPlist.strings */ = {
