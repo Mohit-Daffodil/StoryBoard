@@ -28,7 +28,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="on6-Ko-UiP"/>
                     <connections>
-                        <segue destination="6lg-mh-SGN" kind="push" id="EBE-ut-3On"/>
+                        <segue destination="6lg-mh-SGN" kind="push" identifier="test1" id="EBE-ut-3On"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cu4-JA-nYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -92,7 +92,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Kac-sP-ru7"/>
                     <connections>
-                        <segue destination="Srm-a8-kO2" kind="modal" id="dgU-gZ-e9i"/>
+                        <segue destination="Srm-a8-kO2" kind="modal" identifier="test2" id="dgU-gZ-e9i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="90d-On-4k2" userLabel="First Responder" sceneMemberID="firstResponder"/>
